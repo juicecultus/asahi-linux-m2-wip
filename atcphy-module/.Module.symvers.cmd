@@ -1,0 +1,1 @@
+savedcmd_Module.symvers :=  /usr/src/kernels/6.18.10-402.asahi.fc42.aarch64+16k/scripts/mod/modpost -M          -o Module.symvers -n -T modules.order -i /usr/src/kernels/6.18.10-402.asahi.fc42.aarch64+16k/Module.symvers -e 

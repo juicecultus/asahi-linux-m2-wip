@@ -1,0 +1,1 @@
+savedcmd_phy-apple-atc.ko := ld -r -EL  -maarch64linux -z norelro --compress-debug-sections=zlib -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/kernels/6.18.10-402.asahi.fc42.aarch64+16k/scripts/module.lds -o phy-apple-atc.ko phy-apple-atc.o phy-apple-atc.mod.o .module-common.o
